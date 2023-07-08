@@ -1,0 +1,53 @@
+.signupform {
+    height: 100vh;
+    /* background-color: red; */
+    /* padding-inline: 100px; */
+    background-color: #F7FFF7;
+
+}
+
+.signup__container {
+    padding-inline: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.signup__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+    background-color: #a4b0a4;
+    border-radius: 20px;
+    padding: 20px;
+
+    
+}
+
+.signup__card form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.signup__card form label {
+    font-size: 18px;
+}
+
+.signup__card form input {
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.signup__card form input[type="submit"] {
+    background-color: #1A535C;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+}
